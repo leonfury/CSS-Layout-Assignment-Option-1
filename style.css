@@ -18,21 +18,12 @@
 
 a:hover {
 	text-decoration: none !important;
-	transform: scale(1.1);
-	animation-play-state: paused;
-	/*animation: radiance1 1s infinite;*/
+	transform: scale(1.2);
 }
 
 #oItem1 {
 	border-radius: 15px;
 	animation: radiance1 5s infinite;
-}
-
-.oItemOverlay {
-	width: 100% !important;
-	padding: auto;
-	background: white;
-	opacity: 0.3;
 }
 
 @keyframes radiance1 {  
